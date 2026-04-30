@@ -57,7 +57,7 @@
 
 <a href="index.html">
 
-    <img src="img/DOTDOTMOD_web.png" alt="DotdotMod website image">
+    <img src="img/DOTDOTMOD_web.png" alt="DotdotMod website image" class=".banner~">
     
 </a>
 
@@ -154,6 +154,23 @@
 <p style="font-size: larger; color: yellow; margin-left: 60px; font-style: italic; font-family: 'Courier New', Courier, monospace; font-weight: bold; margin-top: 100px;">
     The Newest supply of trash!!  
 </p>
+
+
+
+<script>
+    var pepe = new Date();
+    console.log(pepe.getMonth());
+    console.log(pepe.getDate());
+    
+    if (pepe.getMonth() == 11) {
+        document.querySelector("img").setAttribute("src", "img/X-mas_DOTDOTMOD_web.png")
+    }
+    if (pepe.getMonth() == 3) {
+        if (pepe.getDate() == 30) {
+            document.querySelector("img").setAttribute("src", "img/X-mas_DOTDOTMOD_web.png")
+        }
+    }
+</script>
 
 
 
